@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gunjit's Portfolio</title>
+    <title>Bishnoi Gunjit Babulal's Portfolio</title>
     <style>
         body {
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
             background-color: #f2f2f2; /* Light gray background */
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end; /* Align content to the right */
         }
 
         .header {
-            background-color: #333;
-            color: #fff;
+            /* background-color: #333; */
+            color: black;
             text-align: center;
             padding: 1rem;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow to the header */
+            /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); Add shadow to the header */
         }
 
         .container {
             display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+            flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
             margin: 2rem;
         }
 
@@ -35,6 +35,8 @@
             border-radius: 10px; /* Rounded corners */
             padding: 2rem;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow to the container */
+            margin: 1rem; /* Add some margin between containers */
+            width: calc(25% - 2rem); /* Each container takes 25% of the width with some margin in between */
         }
 
         .portfolio h2 {
@@ -67,50 +69,65 @@
         }
     </style>
 </head>
-
 <body>
     <div class="header">
-        <h1>Gunjit's Portfolio</h1>
+        <h1>Bishnoi Gunjit Babulal's Portfolio</h1>
+        <p>Student ID: 21BRS1605</p>
     </div>
     <div class="container">
+        <!-- HTML Tasks -->
         <div class="portfolio">
-            <h2>Bishnoi Gunjit Babulal</h2>
-            <p>Student ID: 21BRS1605</p>
-            <div class="html-tasks">
-                <h3>HTML Tasks</h3>
-                <ul class="task-list">
-                    <li><a href="HTML/task1.html">First Task</a></li>
-                    <li><a href="HTML/task2.html">Second Task</a></li>
-                    <li><a href="HTML/task3.html">Third Task</a></li>
-                    <li><a href="HTML/task4.html">Fourth Task</a></li>
-                    <li><a href="HTML/task5.html">Fifth Task</a></li>
-                </ul>
-            </div>
-            <div class="css-tasks">
-                <h3>CSS Tasks</h3>
-                <ul class="task-list">
-                    <li><a href="CSS/task1.html">First Task</a></li>
-                    <li><a href="CSS/task2.html">Second Task</a></li>
-                    <li><a href="CSS/task3.html">Third Task</a></li>
-                    <li><a href="CSS/task4.html">Fourth Task</a></li>
-                    <li><a href="CSS/task5.html">Fifth Task</a></li>
-                    <li><a href="CSS/task6.html">Sixth Task</a></li>
-                    <li><a href="CSS/task7.html">Seventh Task</a></li>
-                </ul>
-            </div>
-            <div class="css-tasks">
-                <h3>Bootstrap Tasks</h3>
-                <ul class="task-list">
-                    <li><a href="BOOTSTRAP/task1.html">First Task</a></li>
-                    <li><a href="BOOTSTRAP/task2.html">Second Task</a></li>
-                    <li><a href="BOOTSTRAP/task3.html">Third Task</a></li>
-                    <li><a href="BOOTSTRAP/task4.html">Fourth Task</a></li>
-                    <li><a href="BOOTSTRAP/task5.html">Fifth Task</a></li>
-                    <li><a href="BOOTSTRAP/task6.html">Sixth Task</a></li>
-                </ul>
-            </div>
+            <h2>HTML Tasks</h2>
+            <ul class="task-list">
+                <li><a href="HTML/task1.html">First Task</a></li>
+                <li><a href="HTML/task2.html">Second Task</a></li>
+                <li><a href="HTML/task3.html">Third Task</a></li>
+                <li><a href="HTML/task4.html">Fourth Task</a></li>
+                <li><a href="HTML/task5.html">Fifth Task</a></li>
+            </ul>
+        </div>
+
+        <!-- CSS Tasks -->
+        <div class="portfolio">
+            <h2>CSS Tasks</h2>
+            <ul class="task-list">
+                <li><a href="CSS/task1.html">First Task</a></li>
+                <li><a href="CSS/task2.html">Second Task</a></li>
+                <li><a href="CSS/task3.html">Third Task</a></li>
+                <li><a href="CSS/task4.html">Fourth Task</a></li>
+                <li><a href="CSS/task5.html">Fifth Task</a></li>
+                <li><a href="CSS/task6.html">Sixth Task</a></li>
+                <li><a href="CSS/task7.html">Seventh Task</a></li>
+            </ul>
+        </div>
+
+        <!-- Bootstrap Tasks -->
+        <div class="portfolio">
+            <h2>Bootstrap Tasks</h2>
+            <ul class="task-list">
+                <li><a href="BOOTSTRAP/task1.html">First Task</a></li>
+                <li><a href="BOOTSTRAP/task2.html">Second Task</a></li>
+                <li><a href="BOOTSTRAP/task3.html">Third Task</a></li>
+                <li><a href="BOOTSTRAP/task4.html">Fourth Task</a></li>
+                <li><a href="BOOTSTRAP/task5.html">Fifth Task</a></li>
+                <li><a href="BOOTSTRAP/task6.html">Sixth Task</a></li>
+            </ul>
+        </div>
+
+        <!-- JavaScript Tasks -->
+        <div class="portfolio">
+            <h2>JavaScript Tasks</h2>
+            <ul class="task-list">
+                <li><a href="JAVASCRIPT/task1.html">First Task</a></li>
+                <li><a href="JAVASCRIPT/task2.html">Second Task</a></li>
+                <li><a href="JAVASCRIPT/task3.html">Third Task</a></li>
+                <li><a href="JAVASCRIPT/task4.html">Fourth Task</a></li>
+                <li><a href="JAVASCRIPT/task5.html">Fifth Task</a></li>
+                <li><a href="JAVASCRIPT/task6.html">Sixth Task</a></li>
+                <li><a href="JAVASCRIPT/task7.html">Seventh Task</a></li>
+                <li><a href="JAVASCRIPT/task8.html">Eight Task</a></li>
+            </ul>
         </div>
     </div>
 </body>
-
 </html>
